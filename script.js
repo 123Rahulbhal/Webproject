@@ -3,7 +3,7 @@ for(index = 0; index < ip.length; index++){
     if(ip[index] === '192.168.13.7'){
         let value = prompt('Enter New IP Address: ')
         ip[index] = value;
-        
+        console.log('Rahul');
     }
 }
 console.log(ip);
